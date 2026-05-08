@@ -1,0 +1,66 @@
+Training distribution: 36 problems
+Episodes: 500, Max steps: 200
+FE budget per run: 5000
+Device: cpu
+------------------------------------------------------------
+Using PPO with 25351 parameters
+Starting fresh training (no checkpoint found)
+  Episode   10/500 | reward= 53.7953 | error=  5.17e+01 | prob=CEC2022_f4_D10 | ploss=-0.0090 vloss=15.9359
+  Episode   20/500 | reward= 64.0691 | error=  5.14e+01 | prob=CEC2022_f10_D10 | ploss=-0.0330 vloss=11.5807
+  Episode   30/500 | reward= 63.7318 | error=  8.62e+01 | prob=CEC2022_f10_D20 | ploss=0.0033 vloss=28.8424
+  Episode   40/500 | reward= 60.8263 | error=  9.56e+01 | prob=CEC2022_f12_D20 | ploss=-0.0024 vloss=28.0374
+  Episode   50/500 | reward= 66.3596 | error=  8.73e+01 | prob=sphere_D20 | ploss=0.0471 vloss=11.1917
+  Episode   60/500 | reward= 53.9503 | error=  5.47e+00 | prob=CEC2022_f5_D20 | ploss=0.0020 vloss=23.8578
+  Episode   70/500 | reward= 67.1281 | error=  2.01e-01 | prob=sphere_D20 | ploss=0.0061 vloss=9.8079
+  Episode   80/500 | reward= 56.5120 | error=  5.94e+00 | prob=rosenbrock_D20 | ploss=-0.0112 vloss=8.4308
+  Episode   90/500 | reward= 58.0756 | error=  3.75e+01 | prob=CEC2022_f7_D20 | ploss=0.0105 vloss=17.3745
+  Episode  100/500 | reward= 53.5064 | error=  5.75e-01 | prob=CEC2022_f11_D20 | ploss=-0.0283 vloss=14.1900
+  Episode  110/500 | reward= 65.5011 | error=  2.65e+01 | prob=CEC2022_f8_D10 | ploss=-0.0127 vloss=4.8075
+  Episode  120/500 | reward= 75.0646 | error=  6.29e+00 | prob=CEC2022_f4_D10 | ploss=0.0176 vloss=4.0278
+  Episode  130/500 | reward= 60.4855 | error=  1.92e+01 | prob=CEC2022_f8_D10 | ploss=-0.0550 vloss=5.2834
+  Episode  140/500 | reward= 68.3108 | error=  6.69e+01 | prob=CEC2022_f4_D10 | ploss=-0.0118 vloss=3.9842
+  Episode  150/500 | reward= 56.3017 | error=  3.60e+01 | prob=lunacek_D20 | ploss=0.0096 vloss=14.6489
+  Episode  160/500 | reward= 67.8592 | error=  1.47e+01 | prob=CEC2022_f8_D20 | ploss=0.0200 vloss=14.6517
+  Episode  170/500 | reward= 63.4632 | error=  1.15e+02 | prob=CEC2022_f9_D20 | ploss=0.0235 vloss=23.4054
+  Episode  180/500 | reward= 52.3761 | error=  8.38e-02 | prob=CEC2022_f12_D20 | ploss=-0.0444 vloss=15.2664
+  Episode  190/500 | reward= 57.3214 | error=  5.23e-01 | prob=CEC2022_f3_D10 | ploss=0.0140 vloss=1.0196
+  Episode  200/500 | reward= 58.0461 | error=  2.39e+01 | prob=CEC2022_f4_D10 | ploss=0.0064 vloss=3.5641
+  Episode  210/500 | reward= 57.9346 | error=  2.76e+01 | prob=CEC2022_f2_D20 | ploss=0.0288 vloss=10.4461
+  Episode  220/500 | reward= 59.1541 | error=  1.50e+01 | prob=rastrigin_D20 | ploss=-0.0202 vloss=6.2886
+  Episode  230/500 | reward= 53.9310 | error=  1.36e+01 | prob=CEC2022_f8_D10 | ploss=-0.0287 vloss=4.1038
+  Episode  240/500 | reward= 60.5412 | error=  1.52e+02 | prob=CEC2022_f6_D20 | ploss=-0.0089 vloss=8.8473
+  Episode  250/500 | reward= 56.9403 | error=  5.23e+01 | prob=CEC2022_f2_D20 | ploss=0.0022 vloss=13.3727
+  Episode  260/500 | reward= 69.7193 | error=  2.07e+01 | prob=ackley_D20 | ploss=-0.0227 vloss=3.9063
+  Episode  270/500 | reward= 58.6938 | error=  3.21e+01 | prob=CEC2022_f10_D20 | ploss=-0.0344 vloss=21.0851
+  Episode  280/500 | reward= 63.3206 | error=  5.94e+01 | prob=CEC2022_f9_D10 | ploss=0.0042 vloss=3.7820
+  Episode  290/500 | reward= 67.8118 | error=  4.96e+00 | prob=CEC2022_f12_D10 | ploss=-0.0052 vloss=4.4015
+  Episode  300/500 | reward= 56.0705 | error=  5.22e+01 | prob=CEC2022_f6_D20 | ploss=-0.0396 vloss=7.9006
+  Episode  310/500 | reward= 60.8323 | error=  6.34e-01 | prob=CEC2022_f10_D10 | ploss=0.0184 vloss=3.4487
+  Episode  320/500 | reward= 57.4882 | error=  4.84e-02 | prob=CEC2022_f9_D20 | ploss=0.0030 vloss=15.3247
+  Episode  330/500 | reward= 58.5691 | error=  1.86e+01 | prob=CEC2022_f1_D20 | ploss=-0.0162 vloss=17.2127
+  Episode  340/500 | reward= 65.8855 | error=  1.52e+01 | prob=sphere_D10 | ploss=-0.0280 vloss=4.6460
+  Episode  350/500 | reward= 60.4989 | error=  1.39e+00 | prob=CEC2022_f4_D20 | ploss=0.0365 vloss=27.4179
+  Episode  360/500 | reward= 59.2286 | error=  1.45e+01 | prob=CEC2022_f6_D10 | ploss=-0.0079 vloss=1.3998
+  Episode  370/500 | reward= 52.2940 | error=  1.01e+02 | prob=CEC2022_f4_D20 | ploss=0.0108 vloss=25.5834
+  Episode  380/500 | reward= 71.6294 | error=  8.25e+01 | prob=CEC2022_f1_D20 | ploss=-0.0214 vloss=18.3701
+  Episode  390/500 | reward= 61.1291 | error=  2.68e-01 | prob=ackley_D10 | ploss=-0.0226 vloss=0.9662
+  Episode  400/500 | reward= 59.6471 | error=  7.82e+01 | prob=CEC2022_f11_D20 | ploss=-0.0181 vloss=18.9818
+  Episode  410/500 | reward= 65.9485 | error=  1.33e+01 | prob=rastrigin_D10 | ploss=0.0089 vloss=0.5913
+  Episode  420/500 | reward= 64.4043 | error=  5.50e+00 | prob=CEC2022_f4_D20 | ploss=0.0087 vloss=36.2104
+  Episode  430/500 | reward= 61.5143 | error=  1.23e+01 | prob=rosenbrock_D20 | ploss=-0.0287 vloss=9.4719
+  Episode  440/500 | reward= 69.7105 | error=  1.82e+02 | prob=CEC2022_f5_D10 | ploss=0.0372 vloss=2.1103
+  Episode  450/500 | reward= 67.0759 | error=  4.63e+01 | prob=CEC2022_f7_D20 | ploss=-0.0125 vloss=21.4718
+  Episode  460/500 | reward= 52.2790 | error=  4.55e-04 | prob=CEC2022_f2_D10 | ploss=0.0274 vloss=1.6933
+  Episode  470/500 | reward= 62.0861 | error=  3.05e+01 | prob=sphere_D10 | ploss=0.0116 vloss=1.6464
+  Episode  480/500 | reward= 68.5360 | error=  2.26e+01 | prob=CEC2022_f2_D20 | ploss=0.0023 vloss=9.9145
+  Episode  490/500 | reward= 58.5513 | error=  1.84e+00 | prob=CEC2022_f11_D20 | ploss=-0.0164 vloss=13.7884
+  Episode  500/500 | reward= 56.0307 | error=  1.06e-02 | prob=CEC2022_f5_D20 | ploss=0.0232 vloss=25.9588
+
+============================================================
+Training complete.
+  Final avg reward (last 20): 57.2910
+  Final med error (last 20):  9.49e-02
+  Best model: checkpoints/meta_rl.pt
+  Resume checkpoint: checkpoints/meta_rl_latest.pt
+  Log file: checkpoints\training_log.txt
+============================================================

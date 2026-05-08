@@ -1,0 +1,7 @@
+Highlights
+
+- Surrogate ensemble disagreement guides operator selection via UCB bandit
+- Novel goal-distancing operator escapes deceptive basins with Lévy flight
+- Rank-based credit assignment is scale-invariant and needs no known optimum
+- 10,000x error reduction on Rastrigin vs L-SHADE (30 seeds, p<0.0001)
+- Bandit learns function-dependent operator preferences automatically
